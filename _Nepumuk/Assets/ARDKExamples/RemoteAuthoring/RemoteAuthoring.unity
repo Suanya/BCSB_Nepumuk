@@ -404,6 +404,50 @@ MonoBehaviour:
   _occlusionMode: 3
   _textureFilterMode: 0
   _stabilizeOcclusionsExperimental: 0
+--- !u!1 &1073835076
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073835078}
+  - component: {fileID: 1073835077}
+  m_Layer: 0
+  m_Name: RemoteAuthoringSceneTag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1073835077
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073835076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc6e02c1aa64397bd861720fb2ebdea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1073835078
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073835076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1196203959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -629,36 +673,18 @@ MonoBehaviour:
   - LocationName: Relic
     AuthoredAnchors:
     - Name: Default
-      Payload: ChYI6djC/O3i1qbaARCF9c+/i5+dkpgBGOLQ8pSjlfoCKkUKFQj9w6TRpeTXpV8QvZ2Ms/Xz46aTARInCg8Ngi/LPxU6T92/HVSmVEESFA3aXkk8FbAJUT8dLnIJvCW4DBI/HQAAgD8qRQoVCKmkiJnMlragGxCb24Pl3LvB0tQBEicKDw3clYS+FUpgv78d7lw/QRIUDePRszsVPY9GPx3AKOu7JeMtIj8dAACAPypFChUIxJiXirvm8aTJARCr752K466zxGkSJwoPDQ1lO8AV7DTpPx0XTaJAEhQNfCw3uhXUpXw/HVj1x7sl0A8Wvh0AAIA/KkQKFAiknsDlroaMpzMQmPXX+JDv28YbEicKDw10joI+Fc7l3D8dDs+uQBIUDWRBsLwVIn1Uvx2yW0w6JUblFj8dAACAPw==
-  - LocationName: Russalka
-    AuthoredAnchors:
-    - Name: Default
-      Payload: ChUInJ2hg6Shn6ViELqHru31kPWyyAEYgYvI3sWS+gIqNgoVCKmMz52xmuSj0QEQi6Wt77GBiKBrEhgKDw0lBsE+FUoMQr8doBqPvxIFJQAAgD8dAACAPw==
-  - LocationName: Three Fish
-    AuthoredAnchors:
-    - Name: BetweenFish1
-      Payload: ChQIrYyc+6C0m6YfELqlkeHr9LfabBiWj4b2xJL6Aio2ChUIhNWmmazFtaOWARCivcGw/v7c2F8SGAoPDeXQQr8Vj8KlPx3+1AhAEgUlAACAPx0AAIA/
-    - Name: BetweenFish2
-      Payload: ChUI3+P5nuzP1qBgELHPivqsjLKi/gEY7ZnUmMWS+gIqNgoVCITVppmsxbWjlgEQor3BsP7+3NhfEhgKDw1QjZe9FR1apD8dary0PxIFJQAAgD8dAACAPw==
+      Payload: ChYI3/iUhabCh6f6ARCema/KsYjdgp8BGMKTl9zMsPsCKkYKFgjVxuSg8Zaao70BEKTlnY2zh7qLsAESJwoPDYBORT4VZyw9vx3EWBY+EhQNUQL+OxUngbW9HSxXBDwleWp+Px0AAIA/KkUKFQi05MbAiPTfoIQBEJ+5xpLFuMnkUBInCg8NYPg7vhUkYWc/HZM7O0ASFA3tDyI8Fdg4nj4d0FaBOyWP1HI/HQAAgD8qRQoVCOT/4qKRqeinvwEQmp/QxMql3bcqEicKDw0t74vAFVzC/z4dAIcgwBIUDQ+FILwVvcZvPx2ZfuW7JQfcsL4dAACAPypFChUIzcy676DRvKeAARCCiea5p4Db/wESJwoPDdYQqEAV8sBmPh0KSxG+EhQNerpSOxX3IBe8HZWSozsl7wGAPx0AAIA/
+    - Name: YetiPeti
+      Payload: ChQIjNut2/6p2KE0EJTFsYbT9uK9ChjUkYKizrD7AipGChYI1cbkoPGWmqO9ARCk5Z2Ns4e6i7ABEicKDw3gImi+FSyxzr4dsPgCvRIUDVEC/jsVJ4G1vR0sVwQ8JXlqfj8dAACAPypFChUItOTGwIj036CEARCfucaSxbjJ5FASJwoPDTgmGr8VeqaePx1Uu0ZAEhQN7Q8iPBXYOJ4+HdBWgTslj9RyPx0AAIA/KkUKFQjNzLrvoNG8p4ABEIKJ5rmngNv/ARInCg8Nxt+ZQBXEURA/HaAFg74SFA16ulI7FfcgF7wdlZKjOyXvAYA/HQAAgD8qRQoVCOT/4qKRqeinvwEQmp/QxMql3bcqEicKDw2lf37AFcYeWT8dUr4twBIUDQ+FILwVvcZvPx2ZfuW7JQfcsL4dAACAPw==
   _anchoredContent:
+  - AnchorName: YetiPeti-Relic
+    ManifestID: 0
+    AnchorDataIdentifier: YetiPeti
+    Content: {fileID: 6032780966782272409, guid: ac9cd76dd4c754173bf975a1036893bd,
+      type: 3}
   - AnchorName: Default-Relic
     ManifestID: 0
     AnchorDataIdentifier: Default
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
-      type: 3}
-  - AnchorName: Default-Russalka
-    ManifestID: 1
-    AnchorDataIdentifier: Default
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
-      type: 3}
-  - AnchorName: BetweenFish1-Three Fish
-    ManifestID: 2
-    AnchorDataIdentifier: BetweenFish1
-    Content: {fileID: 4157707192060163750, guid: 55affbfb5722e40a98877eaf25c3342e,
-      type: 3}
-  - AnchorName: BetweenFish2-Three Fish
-    ManifestID: 2
-    AnchorDataIdentifier: BetweenFish2
     Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
       type: 3}
 --- !u!4 &1829151718
